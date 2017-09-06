@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+const names = ['flo', 'helene', 'ju'];
+
+const fullNames = names.map(function(name) {
+  return `${name} Bos`;
+});
+
+const fullNames2 = names.map(name => {
+  return `${name} Bos`;
+});
+
+const fullNames3 = names.map((name) => {
+  return `${name} Bos`;
+});
+
+const fullNames4 = names.map(name => `${name} Bos`);
+
+const sayMyName = (name) => { alert(`Hello ${name}!`)};
+
+
+sayMyName('flo');
+  </script>
+</body>
+</html>

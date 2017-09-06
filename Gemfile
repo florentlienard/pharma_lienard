@@ -15,6 +15,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+ruby '2.3.4'
 
 group :development, :test do
   gem 'pry-byebug'
