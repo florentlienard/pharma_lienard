@@ -22,9 +22,12 @@ gem 'coffee-rails'
 
 group :development, :test do
   gem 'pry-byebug'
+  gem 'binding_of_caller'
+  gem 'better_errors'
   gem 'pry-rails'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem "letter_opener"
 end
