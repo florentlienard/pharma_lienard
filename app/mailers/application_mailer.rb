@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'pharmacie.lienard@gmail.com'
+  default from: 'contact@pharmacielienard.fr'
   layout 'mailer'
 end
