@@ -1,1 +1,5 @@
 Yo
+<%= simple_form_for(User.new) do |f| %>
+<%= f.input :last_name, placeholder: "Nom" %>
+<%= f.button :submit, class: "btn btn-primary"  %>
+<% end %>
