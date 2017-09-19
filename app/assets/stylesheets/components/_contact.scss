@@ -1,0 +1,19 @@
+.form-contact-container {
+  margin: 100px;
+  color: yellow;
+  width: 400px;
+  padding: 300px;
+  font-weight: italic;
+  }
+.test {
+  background: yellow;
+  height: 200px;
+  width: 100%;
+}
+
+@media (max-width: 750px)
+  {
+    .form-contact-container {
+      margin: 20px;
+    }
+}

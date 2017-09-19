@@ -1,0 +1,10 @@
+<div class = "step">
+  <%= simple_form_for(User.new) do |f| %>
+  <%= f.input :last_name, placeholder: "Nom" %>
+  <%= f.input :first_name, placeholder: "Prénom" %>
+  <%= f.input :email, placeholder: "Email" %>
+  <%#= f.input :photo, as: :attachinary %>
+  <%= f.button :submit, class: "btn btn-primary"  %>
+  <% end %>
+</div>
+
