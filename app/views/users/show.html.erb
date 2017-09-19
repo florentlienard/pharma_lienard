@@ -1,3 +1,7 @@
 <p>Yo show</p>
 
 <p><%= @user.last_name %></p>
+
+<%= <% if @user.photo? %>
+  <%= cl_image_tag @user.photo.path, width: 200, height: 300, crop: :fill %>
+<% end %>

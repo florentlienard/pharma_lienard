@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     Rails.application.routes.draw do
     resources :users, only: [:show, :index, :new, :create]
   end
+
+  mount Attachinary::Engine => "/attachinary"
   # get 'users', to: 'users#users'
   # post 'users', to: 'users#users'
 
