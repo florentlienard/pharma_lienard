@@ -1,0 +1,13 @@
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+/usr/local/opt/rbenv/versions/2.3.4/bin/ruby -r ./siteconf20170919-86071-1lj1u2s.rb extconf.rb
+creating Makefile
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" install

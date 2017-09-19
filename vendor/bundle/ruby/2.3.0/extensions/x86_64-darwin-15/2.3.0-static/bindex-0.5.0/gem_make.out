@@ -1,0 +1,15 @@
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/usr/local/opt/rbenv/versions/2.3.4/bin/ruby -r ./siteconf20170919-86071-1f26tp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20170919-86071-ohqtxg/bindex

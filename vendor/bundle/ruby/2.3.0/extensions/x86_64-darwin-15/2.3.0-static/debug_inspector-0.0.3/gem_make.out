@@ -1,0 +1,15 @@
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/local/opt/rbenv/versions/2.3.4/bin/ruby -r ./siteconf20170919-86071-63jfo0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/florentlienard/code/florentlienard/pharma_lienard/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170919-86071-1ou3bi2
